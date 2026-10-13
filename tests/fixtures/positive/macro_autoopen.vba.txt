@@ -1,0 +1,7 @@
+Attribute VB_Name = "Module1"
+' Benign test fixture: auto-exec macro pattern. Never runs anything real.
+Sub AutoOpen()
+    Dim sh
+    Set sh = CreateObject("WScript.Shell")
+    sh.Run "calc.exe", 0, False
+End Sub

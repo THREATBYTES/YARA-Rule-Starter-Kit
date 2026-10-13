@@ -1,0 +1,20 @@
+# Maps each fixture (relative to tests/fixtures/) to the exact set of rules it must match.
+# An empty list means the file must NOT match any rule.
+fixtures:
+  positive/upx_stub.bin: [TB_Generic_UPX_Packed_PE]
+  positive/powershell_cradle.ps1.txt: [TB_Generic_PowerShell_Download_Cradle]
+  positive/base64_pe_dropper.vbs.txt: [TB_Generic_Base64_PE_In_Script]
+  positive/macro_autoopen.vba.txt: [TB_Generic_Office_Macro_AutoExec]
+  positive/obfuscated_eval.js.txt: [TB_Generic_Obfuscated_JavaScript_Eval]
+  positive/reverse_shell.sh.txt: [TB_Generic_Unix_Reverse_Shell]
+  positive/fakebytes_sample.txt: [TB_Example_FakeBytes_Loader]
+  negative/clean_pe_stub.bin: []
+  negative/clean_powershell.ps1.txt: []
+  negative/clean_macro.vba.txt: []
+  negative/clean_readme.txt: []
+  negative/clean_script.js.txt: []
+
+# Fixtures built in memory by scripts/test_rules.py at test time and never stored on disk,
+# so the repository itself does not trip antivirus scanners.
+generated:
+  eicar: [TB_Test_EICAR]

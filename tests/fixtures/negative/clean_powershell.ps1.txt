@@ -1,0 +1,2 @@
+# Ordinary admin script: list large files in the current folder.
+Get-ChildItem -Path . -Recurse | Where-Object { $_.Length -gt 10MB } | Select-Object FullName, Length

@@ -1,0 +1,2 @@
+// Benign test fixture: decodes to console.log('hello')
+eval(atob("Y29uc29sZS5sb2coJ2hlbGxvJyk="));

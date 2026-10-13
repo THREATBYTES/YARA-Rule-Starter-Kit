@@ -1,0 +1,5 @@
+Attribute VB_Name = "Formatting"
+' Ordinary macro: bolds the header row. No auto-exec, no external calls.
+Sub BoldHeader()
+    ActiveSheet.Rows(1).Font.Bold = True
+End Sub

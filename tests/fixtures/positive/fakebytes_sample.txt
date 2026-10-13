@@ -1,0 +1,5 @@
+FakeBytes loader indicator dump (FICTIONAL, training only)
+mutex: Global\FB_Loader_Mutex_7a3c
+user-agent: FakeBytesLoader/1.0
+c2: https://fakebytes-c2.example/gate.php
+persistence: HKCU\Software\Microsoft\Windows\CurrentVersion\Run\FBUpdater

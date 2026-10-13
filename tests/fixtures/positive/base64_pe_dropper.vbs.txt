@@ -1,0 +1,4 @@
+' Benign test fixture: contains only the Base64 of a DOS stub header, not a working program.
+Dim payload
+payload = "TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAAA="
+' (no decoding or execution performed)
